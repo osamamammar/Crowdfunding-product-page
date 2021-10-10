@@ -19,46 +19,26 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Frontend Mentor | Crowdfunding product page</title>
     <script defer src="js/app.js"></script>
   </head>
   <body>
-    
+    <div class="overlay active"></div>
     <!-- MOBILE MENU -->
-    <header class="mobile-menu hero-image">
+    <header class="hero-image">
       <nav class="mobile-nav">
         <!-- Logo -->
         <a href="#" class="logo">
           <img src="./images/logo.svg" alt="Logo" />
         </a>
-        <!-- Toggle menu -->
-        <!-- <div class="toggle-menu mobile-menu--close hidden" id="toggle-menu">
-          <img src="images/icon-hamburger.svg" alt="hamburger" class="header__mobileMenu--img">
-          <img src="images/icon-close-menu.svg" alt="hamburger" class="header__mobileMenu--img" style="height: 1rem;width: 1rem;">
+        <div class="burger-icon open">
+          <!-- background-image icon -->
         </div>
 
-        <div class="mobile-menu--container">
-         
-          <div class="menu" id="myLinks">
-            <a href="#">About</a>
-            <a href="#">Discover</a>
-            <a href="#">Get Started</a>
-          </div> -->
-          <!-- <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Discover</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Get Started</a>
-            </li>
-          </ul> -->
-        </div>
         <!-- Navigation list -->
-        <ul class="nav-list">
+
+        <ul class="nav-list open">
           <li class="nav-item">
             <a href="#" class="nav-link">About</a>
           </li>
@@ -71,7 +51,10 @@
         </ul>
       </nav>
     </header>
+
+    <!-- Main -->
     <main class="cards-container">
+      <!-- first card -->
       <section class="card">
         <div class="mastercraft--logo">
           <img src="images/logo-mastercraft.svg" alt="" />
@@ -203,7 +186,11 @@
       <!-- auther -->
       <div class="auther" style="margin: 0 auto">
         osamamammar
-        <a href="https://www.github.com/osamamammar" style="color: var(--color-cyan-dark)"">(Github)</a>
+        <a
+          href="https://www.github.com/osamamammar"
+          style="color: var(--color-cyan-dark)"
+          >(Github)</a
+        >
       </div>
     </main>
   </body>
