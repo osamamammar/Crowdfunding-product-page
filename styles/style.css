@@ -329,7 +329,8 @@ p {
 }
 @media (min-width: 650px) {
   .cards-container {
-    max-width: 50vw;
+    max-width: 60rem;
+    /* width: 80%; */
     transform: translateY(-8rem);
   }
   .hero-image {
