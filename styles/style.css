@@ -78,14 +78,17 @@ p {
   background-position: center;
   height: 40rem;
   padding: 2rem;
+  /* position: relative; */
 }
 /* MOBILE MENU */
 .mobile-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0.5rem;
+  padding: 2rem 2.5rem;
   width: 100%;
+  position: absolute;
+  z-index: 100;
 }
 
 .overlay {
